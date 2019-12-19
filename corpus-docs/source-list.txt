@@ -6,4 +6,6 @@
 6 Enteroviruses dhs_wisconsin/?
 7 Hantavirus dhs_wisconsin/42053ah.pdf
 8 Active_TB healthMN/activehmo.pdf
-9 Acute Flaccid Myelitis dhs_wisconsin/p01581h.txt
+9 Acute Flaccid Myelitis dhs_wisconsin/p01298h.txt
+10 Zika dhs_wisconsin/p01581h.txt
+11 Mob Ntsws Qhuav dhs_wisconsin/p01709h.txt
