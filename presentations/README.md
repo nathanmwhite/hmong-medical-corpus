@@ -5,3 +5,4 @@ This folder contains Jupyter Notebook presentations featuring aspects of the con
 There are currently two Jupyter Notebook files:
 1) Medical_Corpus_Database_Presentation.ipynb--Features method of constructing the corpus database.
 2) POS_tagger_feature.ipynb--Features method of POS-tagging for the corpus.
+3) clf_grouping_presentation.ipynb--Features methods for using dendrograms and k-means clustering to analyze the semantics of nominal classifiers.
