@@ -11,11 +11,11 @@ Given this format, it is currently recommended for potential users of the code t
 In the longer term, the folders will be reorganized into separate code and raw data repositories.
 
 Currently, the repository contains the following folders:
-/blog -- supporting files for the Hmong Medical Corpus Blog, such as images
-/corpus-docs -- processed docx files containing the POS-tagged text of the documents used in the Hmong Medical Corpus
-/corpus_site -- to contain the code files for the corpus site
-/data_processing -- to contain the scripts for processing the raw documents
-/medical_corpus_finalized -- txt files containing the POS-tagged text for the Hmong Medical Corpus
-/pos_tagger_interface -- code and supporting files for the Hmong Medical POS Tagger
-/preprocessed_data -- zip file containing raw text portion of the Hmong Medical Corpus
-/presentations -- Jupyter Notebook files providing information on implementation
+* /blog -- supporting files for the Hmong Medical Corpus Blog, such as images
+* /corpus-docs -- processed docx files containing the POS-tagged text of the documents used in the Hmong Medical Corpus
+* /corpus_site -- to contain the code files for the corpus site
+* /data_processing -- to contain the scripts for processing the raw documents
+* /medical_corpus_finalized -- txt files containing the POS-tagged text for the Hmong Medical Corpus
+* /pos_tagger_interface -- code and supporting files for the Hmong Medical POS Tagger
+* /preprocessed_data -- zip file containing raw text portion of the Hmong Medical Corpus
+* /presentations -- Jupyter Notebook files providing information on implementation
