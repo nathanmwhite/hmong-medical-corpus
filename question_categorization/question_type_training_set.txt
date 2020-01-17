@@ -1,0 +1,428 @@
+Ua cas koj lam hais li ko rau kuv? | Reason
+Leej muam, koj lub npe hu ua li cas? | Name
+Leej nus, koj pab kuv puas tau? | Polar
+Koj puas pom tus kooj zoo zoo nkauj tod ya mus lawm? | Polar
+Nej puas muaj leej twg muaj lus nug? | Polar
+Lub sij hawm twg kuv mus pom cov noog vwm? | Time
+Puas yog kuv pom ob tug noog vwm? | Polar
+Puas yog muaj peb tus dej los mus neeg siav rau pem kev mus lawm pem toj siab? | Polar
+Dej pem toj siab qab li cas? | Description
+Tus Dej Cawm Siav no puas muaj rau lub caij sov? | Polar
+Yog hais tias yus haus no nws yuav qab zoo li cas? | Description
+Haus dej pem toj siab, nws puas yuav ua zoo rau yus lub cev? | Polar
+Dav yuav los muab qaib nws ua li cas? | Action
+Lawv ua li cas rau lawv cov qaib me me? | Action
+Lawv ua li cas cuab cov liaj dav no? | Action
+Lawv cuab tau cov liaj dav zoo li cas xwb? | Description
+Fawm qab li cas? | Description
+Neeg yaj sab, koj noj tas lawm los? | Polar
+Vim li cas neeg yaj sab ho noj fawm peb caug feeb twb tsis tas? | Reason
+Cov kua fawm qab li cas? | Description
+Koj yog vim li cas nws ho nug tias tsam fawm ua nws mob? | Reason
+Nws tuaj mus yuav dab tsi hauv nroog? | Thing
+Koj xav yog vim li cas nws ho lam yuav tais fawm sim? | Reason
+Leej muam, koj tuaj cuab cua nod tos leej twg? | Person
+koj lub npe hu li cas? | Name
+Vim li cas koj ho lam tuaj cuab cua koj ib leeg no? | Reason
+leej nus koj npe hu ua li cas? | Name
+Nws yuav leej twg? | Person
+Puas yog tus Kab Lia Yaj zoo zoo gauj tim lawv lub zos, Dev Saus? | Polar
+Ua li cas Paj Huab ho muaj kev tu siab? | Reason
+Koj xav Paj Huab puas muaj kev zoo siab tom qab ob tug tau sib ntsib tas? | Polar
+Leej twg xub hais kom ob tug sib faib kev? | Person
+Yog lub caij twg ob tug tau tuaj sib ntsib tom kev tod? | Time
+Nws tuaj mus ntsib leej twg? | Person
+Ib pab liab no muaj hov coob li? | Number
+Koj xav tam sim no liab puas los noj lawv tej pob kws lawm? | Polar
+Vim li cas liab ho tu noob tas? | Reason
+Puas yog lawv muab qe mus cuab liab? | Polar
+Puas yog liab los noj pob kws pom kev? | Polar
+Koj puas tau pom dua ib tug liab? | Polar
+Lawv puas muab cov liab lawv cuab tau los mus ua noj? | Polar
+Koj puas paub nws lub npe hu ua li cas? | Polar
+Leej twg paub hais lus Suav? | Person
+Vim li cas nws muab nws tus nees muag? | Reason
+Kab puas zoo siab? | Polar
+Koj puas tau pom dua ib tug qav kaws? | Polar
+Lub hub no yog leej twg lub? | Person
+Vim li cas lawv tau muab lub roob no hu ua Roob Poob Zoo? | Reason
+Nyob rau saum lub Roob Poob Zoo no puas muaj dais? | Polar
+Lub caij ntuj sov saum lub roob no puas los nag huab zig? | Polar
+Ua li cas lawv ho muab lub roob no hu ua Roob Poob Zoo no? | Reason
+Koj xav cov khoom saum lub roob no nws yeej muaj nws los muaj neeg cog cia rau saud? | Choice
+Koj xav ua li cas rau zos Pub Thawj ntawd lawm? | Event
+Ua li cas rau peb tus yawg tau mus rau saum lub Roob Poob Zoo? | Event
+Vim li cas nyob rau saum lub no muaj tsiaj qus coob heev? | Reason
+kuv poj niam no muaj neej muaj tsav coob saib zaum no peb yuav ua li cas? | Action
+nws thiaj los nug saib yog nqaij dab tsi? | Kind
+Lub caij mus luaj teb ib co poj niam mus ua dab tsi? | Action
+Mus pw luaj teb puas hnov nraj yig lauv tsaw quaj? | Polar
+Nyob rau pem toj siab lub caij no puas muaj huab los pw hav? | Polar
+Lub hli dab tsi lawm mam li mus luaj teb? | Month
+Yog yus ua teb twm zeej, yus puas tau luag mus pw luaj teb? | Polar
+Lawv yuav cia lawv cov teb ziab hov ntev li lawv mam li mus hlawv? | Duration
+Ua li cas koj lub ris yuav zoo nkauj ua luaj li? | Reason
+koj tuaj ua dab tsi ntawm peb lub zos Poob Zoo no? | Action
+Vim li cas koj lub npe yuav ntev thiab zoo gauj ua luaj li? | Reason
+Koj puas nyiam lub npe hu ua Zoo Nkauj Tsis Ntev no? | Polar
+vim li cas koj ho xav tau lub npe ntawd? | Reason
+Yog vim li cas peb ho swb Suav? | Reason
+Suav cov luj laus los mos? | Choice
+Yog vim li cas lawv ho tsis mus caum Suav qab? | Reason
+Leej twg paub saib tw teev dua? | Person
+Suav tuaj ua luam lub caij twg? | Time
+Thaum lub Peb hli ntuj lawv mus ua yam hauj lwm dab tsi? | Kind
+Los lus "Las nplej los las pob kws" no hais li cas? | ??? <-- ???
+Koj xav yog vim li cas lawv ho cog pob kws? | Reason
+Lawv mus sau pob kws lub caij twg? | Time
+Yog hais tias tam sim no koj yuav mus ua lub neej nyob rau pem roob pem hav, koj xav koj yuav mus ua li cas thiaj li tau noj tau haus? | Action
+Yog ua li cas rau peb lawm? | Event
+Nej niam thiab txiv mus dua twg tas lawm? | Destination
+Vim li cas lawv ho muab lus pas dej no tis npe hu ua Pas Zaj? | Reason
+Lub Pas Zaj no neeg poob hov coob rau hauv lawm? | Number
+Koj xav tus Pub Thawj ntawd puas tuam tav heev? | Polar
+Zaj puas paub tias yog neeg yaj ceeb mus hlawv lawv lub zos? | Polar
+Koj xav yog vim li cas tus Pub Thawj ntawd ho mus tau lawm tom zaj lub zos? | Reason
+Cov zaj ntawd tsiv dua qhov twg lawm? | Destination
+Tau pes tsawg hnub pas taws mam li pob tshwm pem cov qhov saus? | Duration
+peb sawv daws sim soj ntsuam tom ntej no mus saib nyob rau lub xeev Kaslisfosnias puas yuav muaj xwm txheej dab tsi? | Kind
+Puas yog lawv xub pom tus vaub kib dua? | Polar
+Koj xav cov neeg Asmesliskas xav li cas rau cov Co? | Opinion
+Yog thaum ntawd koj hnov no koj puas yuav mus xyuas tus nees no? | Polar
+Tus nees ntawd dua qhov twg lawm? | Destination
+Yog vim li cas lawv ho muab lub roob no tis npe hu ua Roob Dawm Cua? | Reason
+Nyob rau saum lub roob no , cov nroj tsuag zoo li cas? | Description
+Lub caij ntuj tshiab koj mus rau saud koj pom tim tej zoo li cas? | Description
+Lub caij ntuj nag nyob rau saum lub roob no puas muaj nag huab zig? | Polar
+Vim li cas lawv ho hais tau tias muaj tus puav hluas tau muab lawv txoj kev kho siab tso tseg rau saum lub no lawm? | Reason
+Nws los puas tau te thaum lub caij ntuj no ? | Polar
+Lub roob no puas xyuam yaj? | Polar
+Lawv sawv kev mus tua noog thaum tad li cas? | Time
+Koj xav yuav mus hov ntev thiaj txog cov txiv ntoo ntawd? | Duration
+Yog vim li cas nws ho tua tau ib noog me me xwb? | Reason
+Lawv mus yos txiv toj leeb hov ntev lawv thiaj li pom ib tsob? | Duration
+Tsob txiv toj leeb no qab li cas? | Description
+Puas muaj leej twg nug saib tsob txiv ntoo nyob rau qhov twg? | Polar
+Vim li cas lawv mus thiab los thaum tsis pom kev lawm xwb? | Reason
+Lawv puas ntshai thaum nkaj tus laj kab no? | Polar
+Vim li cas lawv ho mus raws dais? | Reason
+Vim li cas lawv cia tus dais noj pob kws ntev heev lawm lawv mam li mus raws? | Reason
+Lub tsib dais zoo ua dab tsi? | Action
+Koj puas xav haus cawv vaub kib? | Polar
+Cov dej cag nyob rau pem toj siab yuav ua tau li cas rau koj yog hais tias koj tsis ua twb zoo? | Event
+Tej paj hmab paj ntoos pib tawg rau lub caij twg mus? | Time
+Nyob rau pem toj siab cov huab cua zoo li cas? | Description
+Lub caij ntuj qhua nyob rau cov hli twg? | Month
+Lub caij twg thiaj li muaj taus te? | Time
+Me tub ua li cas tus me noog zoo zoo gauj ntawd pheej ya caum wb qab? | Reason
+Kev ua npog no muaj ntau tsav ntau yam thiab ua npog no ho ua li cas? | Event
+Tus mlom tau quaj rau sawv daws pom lub npe hu ua li cas? | Name
+Raws li koj xav pob zeb puas yuav ntab taus? | Polar
+Tus dej Najkhoos xub nqhuab los tus niam Nkauj Ntsuab xub quaj? | Choice
+Nej khiav daim av Nplog hnub twg, lub hli twg, thiab xyoo twg? | Time
+Vim li cas peb ho hu peb ua Hmoob? | Reason
+Ua cov thawj neeg los ua hauj lwm rau ntawm nws yog leej twg? | Person
+Luj Tub, koj mus nrhiav sab hauv ntuj es koj nrhiav puas pom leej tib neeg? | Polar
+Wb yuav mus nrhiav txij nkawm lawm qhov twg? | Location
+Wb yuav ua li cas? | Action
+Leej twg yog tus mus nrhiav leej tib neeg dua sab qab ntug lawm? | Person
+Thaum nkawv rov los txog, leej twg xub pom leej twg dua? | Person
+Thaum nkawv sib faib kev lawm nkawv ib leeg xav tau li cas? | Opinion
+Vim li cas koj ho noj tsis taus ntau koj twb yog ib tug tsiaj noj nqaij nyoos? | Reason
+Cuam rog tsov no tau tswm sim nyob rau xyoo twg? | Year
+Tsoom fwv Suav tso Tso Vaj tau tuaj mus tsuj teb chaws xyoo twg? | Year
+Yog vim li cas ib co Tsov Vaj ntawd cia tau tuaj mus noj lub qhov av no thiab haus lub qhov dej qab ntsev no lawm? | Reason
+Tswv Xyas tus thawj peeb npe hu ua li cas? | Name
+Vim li Hmoob ho paub tias yog tsov los tos neeg mus ua rog tsov? | Reason
+Tswv Xyas tau mus ua tsov tau hov ntev, nws thiaj li rov qab los ntsib tau nws cov neeg? | Duration
+Kev hluas nkauj hluas nraug yav thaum ub txawv yav niaj hnub nim no zoo li cas? | Description
+Hmoob ua Npua Dab Roog no Hmoob ua dab tsi? | Action
+Yog vim li cas tej laus pheej tsis pub tej hluas teem sij hawm tuaj mus sib cuag? | Reason
+Koj xav vim li cas tus hluas nraug ho tsis khiav tuaj mus hais qhia tus nkauj tias nws tsis khoom no? | Reason
+Koj puas ntseeg tias yav thaum ub neej dab sib txuas tau lus? | Polar
+Koj piav yog vim li cas ho tau los ho tsis tau? | Reason
+Ua li cas tus hluas nkauj no yuav zoo nkauj ua luaj li? | Reason
+Nws ho nyob qhov twg tuaj? | Location
+Vaj Kaus tau tuaj dab lawv cov Hmoob nyob lub Roob Kasxav xav li cas? | Opinion
+Xyoo lawv cov mus tuag no yog xyoo twg? | Year
+Vim li cas Koosphas xya thiaj li tu noob? | Reason
+Koj xav vim li cas hmo lawv mus rau ntawm Phamluab nyab laj ho tsis tua lawv hmo ntawd? | Reason
+Vim li cas Riam Tsab ho tsis rov qab mus ua tub rog lawm? | Reason
+koj yog Hmoob dab tsi? | Clan
+koj nyob qhov twg tuaj? | Location
+koj tuaj qhov twg tuaj? | Source
+koj yog xeem dab tsi? | Clan
+Nyob rau hauv lub zos no puas muaj cov kwv tij Hmoob Koo nyob thiab? | Polar
+Tus hluas, koj tuaj qhov twg tuaj? | Source
+koj npe hu ua li cas? | Name
+nej yog xeem dab tsi? | Clan
+koj yog Hmoob dab tsi naj? | Clan
+Thov txim koj puas paub yawg hlob Vaj Pov tsev nyob qhov twg? | Polar
+Tus kwv koj tuaj qhov twg tuaj? | Source
+koj npe hu ua li cas? | Name
+Nej yog Hmoob dab tsi? | Clan
+Vim li cas koj thiaj li los mus? | Reason
+Puas yog lawv muab tus maum npua tseem tshuav ib co mi nyuam npua mos mos ntawd tua ua koj luag los mus saum ceeb tsheej ntuj? | Polar
+Koj xav yog vim li cas cov neej tsa pheej yuav yuam kom lawv muab tus maum npua los mus tua rau leej niam? | Reason
+Tus niam pog laus ntawd puas xav rov qab los rau ntiaj teb no? | Polar
+Yog vim li cas? | Reason
+Yog vim li cas tus maum npua ho rov los tsis tau lawm? | Reason
+Thaum tus pog laus nti nti saum tus nees cov neeg ua li cas? | Action
+Tus pog laus rov los tu cov me nyuam hov ntev li nws mam li tau kev rov qab lawm pem ntuj dua? | Duration
+Koj xav vim li cas thaum nws nti nti yuav sawv los ntawd cov neeg ho tsis cia li xuav riam los sis puas phom tua nws? | Reason
+Lawv muab tus maum npua tua ua li cas rau tus pog laus? | Manner
+Pes tsawg xyoo tom qab no nws mam li rov tuag dua? | Duration
+Ua li cas nej cov mi nyuam Hmoob lub siab yuav luv ua luaj li nej? | Reason
+Ua li cas nej yuav maj ua luaj li? | Reason
+Hauv lub txws hauv muaj dab tsi? | Thing
+Ua li cas yawg ho tsis pub peb kov? | Reason
+Ua li cas nej lam muab kuv lub txws qheb? | Reason
+Ua li cas nej lam muab nws tua? | Reason
+Yog vim li cas Paj Cai lawv thiaj li sawv los ua rog? | Reason
+Fab Kis lub hom phiaj tuaj rau Nplog teb yog dab tsi? | Goal
+Ua ntej thaum Paj Cai lawv tsis tau los mus teev, Paj Cai tau pes tsawg yam khoom? | Number
+Leej twg tuaj hais rau Paj Cai tias txog caij lawm kom lawv teev? | Person
+Koj xav yog vim li cas Nyiaj Pov Lis cia li mob plab ib hmos xwb thiab ho cia li tuag? | Reason
+Cov Fab Kis thiab Nplog puas ntseeg tias lawv tua tau Paj Cai? | Polar
+Ua li cas rau Paj Cai tus phooj ywg lawm? | ??? <-- ???
+Cuam rog Paj Cai no tshwm sim nyob rau xyoo twg? | Year
+Yog vim li cas nkawv lub neej tsis kav nkawv txoj kev sib hlub? | Reason
+Thaum ua rau leej txiv pom thawj thawj zaug ntawd, nws puas paub tias yog nws tus poj niam hlob los ua rau nws? | Polar
+Yog vim li cas dev thiaj li ho tom tau tus poj ntxoog? | Reason
+Koj xav ua li cas tus poj ntxoog tuag lawm tau cuaj lub xyoo nws mam li rov qab los tau dua? | ??? <-- ???
+Vim li cas leej txiv ho paub tias zaum nws rov qab los no nws yeej yuav tsis dim li? | Reason
+Raws li koj xav neeg siab phem thaum kawg puas tau ntuj ntoo? | Polar
+Koj puas tau hnov dua tej txoj dab neeg zoo li no? | Polar
+Tam sim no Hmoob nyob rau lub teb chaws twg coob tshaj plaws? | Country
+Hmoob tseb puv ntiaj teb pib rau xyoo twg? | Year
+Xyoo 1975 puas yog thawj thawj zaug ntawm Hmoob noob neej tau los mus ua neeg thoj nam? | Polar
+Cov teb chaws Hmoob tau hla tuaj mus nyob muaj pes tsawg lub? | Number
+Nej tuaj rau teb chaws no thaum twg lawm? | Time
+Neeg thoj nam no txais tau li cas? | ??? <-- ???
+Puas muaj Hmoob thoj nam tau mus nyob Suav teb? | Polar
+Viin li cas Hmoob ho tuaj rau Asmesliskas thiab Fab Kis teb ntau dua? | Reason
+Nyob rau hais neeg Hmoob lawv cov kev sib sau los ua neej muaj pes tsawg yam? | Number
+koj xav ua li cas nyob rau hauv Hmoob lub neej lawv cov mi nyuam tsis muaj cai los mus tawm suab? | ??? <-- ???
+Yog hais tias muaj ib tug tub los ntxhais twg cav yeej cov niam txiv, lawv yuav ua li cas rau tus ntawv? | ??? <-- ???
+Raws li koj tau paub thiab tau pom tam sim no Hmoob ib tug nqe ntxhais raug npaum li cas? | ??? <-- ???
+Thaum nej tuaj txog rau lub teb chaws no, koj pom zoo li cas? | Description ??? <-- ???
+Koj npe hu ua li cas, mi tub? | Name
+Neb tuaj ua tus dab tsi naj? | ??? <-- ???
+Neb tuaj rhiav txiv qos yaj ywm mus rau leej twg? | Person
+Koj puas muaj me ntsis yuav muag rau kuv thiab niam tais? | Polar
+Koj puas yuav kam muag me ntsis rau kuv? | Polar
+Yog koj tsis kam muab koj tus dev pauv no, koj puas kam muab koj tus mi nyuam pauv? | Polar
+Koj puas pom lwm txoj kev peb yuav taug tau? | Polar
+Vim li cas ib txhia neeg tsis xav tuaj mus lawm lwm teb chaws? | Reason
+Hauv lub yeej thoj nam Najnyaus no nyob muaj pes tsawg leej neeg? | Number
+Lub yeej thoj nam kub nyhiab thawj zaug rau xyoo twg? | Year ??? <-- ??? (check nyhiab)
+Peb Hmoob ntsib kev txom nyem tas npaum li no, ua li cas tseem muaj ib txhia twb tseem tsis xav tuaj mus lawm lwm teb chaws? | ??? <-- ???
+Ua li cas Hmoob ho hais tau tias tsov muaj poj ntxoog thiab lawv twb tsi muaj neeg pom? | ??? <-- ???
+Thov txim koj npe hu ua li cas? | Name
+yog xeem dab tsi? | Clan
+Huas puas nyob lawm? | Polar
+Huas mus yuav leej twg? | Person
+Nej tuaj Asmesliskas teb no thaum twg thiab nej tuaj poob rau lub zos thiab lub xeev twg? | Location
+Ob lub xeev twg yog ob lub uas Hmoob tuaj poob coob tshaj nyob rau Asmesliskas teb sab hnub tuaj? | Location
+Txij li. xyoo 1979 los mus rau 1982 Hmoob nyob lub zos dab tsis coob tshaj nyob hauv xeev kaslisfosnias no? | Location
+Hmoob los nyob hauv Fresno no thaum twg lawm? | Time
+Vim li cas Hmoob nyob hauv Kaslisfosnias tsiv tawm coob heev? | Reason
+Yog vim li cas peb Hmoob pheej nyob tsis ruaj rau ib qho chaw? | Reason
+Koj xav Hmoob tuaj nyob teb chaws no muaj npaum li cas? | ??? <-- ???
+Thaum nej tsis tau tuaj rau teb chaws no, nej hnov Asmesliskas lub teb chaws lub hmoo zoo li cas? | Description
+Tus Dab Noj Plawv Toov Laj ua puas tau cuaj daj cua dub? | Polar
+Lo lus pam neej pam dab no txhais li cas? | Translation
+Koj xav ua cas hmo ntawd tus dab ntawd ho muab Npuag Hwm xwb thiab nws ho tsis kom tas nkawv ob leeg? | ??? <-- ???
+Vim li cas cov neeg thoj nam ho paub tias lub roob no nyob muaj ib tug Dab phisnyausvais? | Reason
+Koj xav yuav ua li cas rau Nyiaj Vaj yog hais tias tsis muaj neeg pom? | ??? <-- ???
+Yog hais tias ob tug yawg Hmoob tua tau tus tsov dub ntawd muab tus tsov ntawd hlais los sis puas ris los mus tsev no yuav ua li cas? | ??? <-- ???
+Nyob teb chaws no Asmesliskas no puas muaj cov dab no? | Polar
+Mos hlub ho zoo li cas ? | Description
+Mos hlub ho nyob qhov twg? | Location
+Raws li koj xav xwb tam sim no puas muaj mos hlub? | Polar
+Mos hlub puas yog neeg qus? | Polar
+Vim li cas ho muaj mos hlub tsawg tsawg? | Reason
+Vim li cas lawv ho muab qhov ntawd hu ua tiaj mos hlub? | Reason
+Yog li no, yog ua li cas lawm? | ??? <-- ???
+Hmoob tau los mus nyob ua zos thoj nam rau Thaib teb rau xyoo twg? | ??? <-- ???
+Lub zos thoj nam tau piav tas saum no hu li cas? | Name
+Los lus "Ntuj fa teb lam" no hais li cas? | ??? <-- ???
+Vim li cas cov neeg tawg rog no muaj mob muaj tuag heev? | Reason
+Txoj kev ua plees ua yi hauv zos thoj nam zoo li cas? | Description
+Puas muaj cov txij neej xyaum ua paj ntaub? | Polar
+Koj xav vim li cas ib txhia neeg thoj nam pheej tsis xav tuaj mus lawm lawm lwm teb chaws? | Reason
+Vim li cas ib txhia neeg pheej nyiag kev tawm mus lawm sab nraud? | Reason
+Koj xav lub npe neeg thoj nam no yuav kav ntev npaum li cas nws thiaj li yuav poob taus? | Duration
+Hmoob pib mus ua Cob Fab xyoo twg? | Year
+Tus thawj Cob Fab nyob rau saum roob Phuvbiab lub npe hu ua li cas? | Name
+Yog vim li cas lawv ho khiav mus ua Cob Fab? | Reason
+Lawv ua tau Cob Fab hov ntev los lawm? | Duration
+Yog koj yuav muab lo lus hais tias, "Koom tshaj" no muab txhais ua lus Asmesliskas, koj yuav txhais li cas? | Translation
+Raws li tam sim niaj hnub no, koj puas xav tau tias yuav muaj ib hnub twg cov Cob Fab yuav tua tau lub teb chaws Nplog? | Polar
+Yog vim li cas ib txhia Hmoob Cob Fab ho cia khiav rov qab mus thawj nyab laj lawm? | Reason
+Lub npe Cob Fab twb tshwm sim tau hov ntev los lawm? | ??? <-- ???
+Tam sim no neeg ntiaj teb puas txaus siab ua rog lawm? | Polar
+Paj Kaub Hawj yog leej twg? | Person
+Hnub twg peb mam li mus? | Date
+Puas muaj hnub wb rov tau los sib ntsib? | Polar
+Nej cov thaum tsis tau tuaj tid tuaj los sis puas thaum tuaj ntawd tseem yau heev, mus nug nej niam thiab txiv sev thaum lub sij hawm lawv yuav tau tuaj ntawd, lawv tus kheej xav tau zoo li cas? | ??? <-- ???
+Niam Ntsuab Vaj yog nkauj Hmoob dab tsi? | Clan ??? <-- ???
+Nws mob rau lub caij twg? | Time
+Yog hais tias nws niam twb los rau hauv tsev lawm ua li cas cov neeg hauv ho tsis pom nws niam? | Action ??? <-- ???
+Koj xav lawv yuav tsum tau ua li cas lawv thiaj yuav yeej? | ??? <-- ???
+Ua ntej thaum nws tsis tau tuag ntawd, lawv puas paub tias yog nws niam los xyuas nws? | Polar
+Vim li cas lawv ho paub? | Reason
+Raws li txoj dab neeg no, lawv tsev Hmoob Lauj zoo li cas? | Description
+Lawv tau ua tas thaj neeb ua rog ntawd lawv xav tau li cas? | ??? <-- ???
+Thaum niam Ntsuab Vaj siav tu, lawv cov neeg hauv tsev hnov dab tsi? | Thing
+Lub GAIN no tau tshwm sim rau xyoo twg? | Year
+Koj xav lub GAIN no lub hom phiaj yog dab tsi? | Goal
+Vim li cas Hmoob tos ntev ua luaj li lawv mam li mus caum? | Reason
+Koj xav lub GAIN no puas yuav los mus pab cov neeg tsis muaj hauj lwm ua li cov Hmoob? | Polar
+Thaum kawg nkaus Hmoob puas yeej? | Polar
+Koj lam tuaj nyiag suav kuv cov ntxiab thiab yej no ua tus tsi? | ??? <-- ???
+Vim li cas thiaj li yuav tsis tau? | Reason
+Ua li cas koj tus qab txawv wb ob tug? | ??? <-- ???
+Tus tub no tsis tau pom dua li, nws yog leej twg tus? | Person ??? <-- ???
+Nws yog ib tug neeg zoo ua li cas yuav muab daim ntawv no los lo rau ntawm nws lub hauv pliaj? | ??? <-- ???
+Cov no yog dab tsi? | Thing
+Cov niag no ho yog dab tsi? | Thing
+Ua li cas tus tub no tseem rov qab los txog? | ??? <-- ???
+Ua li cas nkawv tseem tsis muab noj thiab? | ??? <-- ???
+Tub os kuv poj niam zoo nkauj tas npaum li no koj lam hais li ko rau kuv ua tus dab tsi? | ??? <-- ???
+Koj tuaj ua dab tsi ntawm no? | Action
+Koj puas pom kuv ib ib daig khaub ncaws dua twg lawm? | Polar
+Yuav tsum tua tam sim no, tos nws los txog ces twb tua tas nws thiaj ua tsis tau dab tsi? | Action
+Yog koj muaj dab tsi yuav hais rau Tub Yis ces hais zaum no, thiab koj muaj dab tsi xav ua ces ua zaum no? | ??? <-- ???
+Koj yuav tuaj mus dab tsi? | ??? <-- ???
+Koj poj niam yog Nkauj Noog puas yog? | Polar
+Sim rov tua ib phom rau saib puas nrug thiab mus puas dhau? | Polar
+Neb ris mus haus xwb los ris mus ua dab tsi? | Action ??? <-- ???
+Es Nkauj Noog ua dab tsi lawm xwb? | Action
+Ua li cas neb mus ua dab tsi tom hav dej lawm, neb yuav mus ntev ua luaj li? | ??? <-- ???
+Ob tug muam kuv ce ib zaug dej rau neb ris puas tau? | Polar
+Neb mus ris dej neb puas pom dab tsi tom hav dej tod? | Polar
+Yuav ua li cas? | ??? <-- ???
+Yog vim li cas Soob Keem ho ua siab mus yuav tus poj dab lawm thiab zoo siab muab nws peb tug poj niam tso pov tseg kom lawv tuag mus? | Reason
+Koj xav yog vim li cas tus poj dab ho kaus tus niam yau ib sab qhov muag xwb? | Reason
+Yaj Leem Phauj yog leej twg? | Person
+Thaum tus tub ntawd twb paub tias leej niam twb yog ib tug poj dab vim li cas nws ho rov qab mus thawj tus ntxhai dua? | Reason
+Qhov tseeb yog vim li cas nkawv cov kwv tij yuav cia li muab Nkauj Noog tua? | Reason
+Yog hais tias cov kwv tij tua tau Nkauj Noog lawm, puas yuav muaj neeg yuav tuaj pab tau nkawv dua? | Polar
+Yog vim li cas koj ho xav li ntawd? | Reason
+Vwb Cab Dub yog tus dej dab tsi? | River
+Vim kiab neeg lub siab zoo li cas? | Description ??? <-- ???
+Txoos kav nyob rau qhov twg? | Location
+Koj xav yog vim li cas ob niam txiv dav tsis muab Tub Yis tom noj? | Reason
+Neeg thaum ub tshwm sim los mus rau hauv lub ntiaj teb no lawv los qhov twg los? | Source
+Hmoob li ne ho tshwm sim qhov twg los mus? | Location
+Ntuj txiag teb tsaus no nyob rau qhov twg? | Location
+Thiab vim li cas Hmoob ho muaj hu ua ntuj txiag teb tsaus? | Reason
+Raws li koj tau paub thiab hnov los mus noob neej Hmoob tshwj sim qhov twg los mus yog hais tias txawv li tau hais los saum no? | ??? <-- ???
+Yog vim li cas tam sim no Hmoob muaj nyob qhov txhi chaw thoob plaws rau Suav teb? | Reason
+Tam sim no Hmoob nyob rau Suav teb nkaus xwb lawv sib tham puas tau lus Hmoob kom meej thiab npliag? | Polar
+Yog vim li cas tam sim no lawv ho muaj lub teb chaws Hmoob ntawd hu ua Muam Nkauj Liag? | Reason
+Vim li cas Hmoob niaj hnub ho muab qhov chaw ntawd hu ua ntuj tshav teb nqhuab? | Reason
+Lo lus "Hmoob" no txhais tau li cas? | Translation
+Koj xav yog vim li cas Hmoob ib txhia ho tau khiav ntawm ntuj txiag teb tsaus los mus? | Reason
+Thaum lub sij hawm ntawd puas yog Hmoob ua rog nrog Suav? | Polar
+Nws zoo txog npaum li no ua li nws ho xub txawm muaj nyob rau qhov twg? | Location
+Vim li cas cov yaj yeeb no ya txog qhov twg leej tib neeg yeej txwv tsis pub cog? | ??? <-- ???
+Thiab vim li cas nws ho tuaj mus rau sab ntiaj teb Esxias qab teb xab hnub tuaj? | Reason
+Vim li cas Hmoob ib txhia pheej tau cog yeeb? | Reason
+Ua li cas yaj yeeb ho tuaj rau Esxias qab teb sab hnub tuaj? | ??? <-- ???
+Nyob rau hauv ntiaj teb no, yaj yeeb xub xub txawm muaj nyob rau qhov twg? | Location
+Yog vim li cas Hmoob ho cia li pib ua yaj yeeb? | Reason
+Niaj hnub no yaj yeeb ua muaj nyob rau qhov twg ntau tshaj plaws? | Location
+Ua li cas yaj yeeb ho ua tsis tau nyob chaw qes? | ??? <-- ???
+Cov yaj yeeb no tau tshwm sim hov ntev li los lawm? | Duration ??? <-- ???
+Vim li cas cuam Rog Yaj Yeeb ho tshwm sim? | Reason
+Niaj hnub no nyob hauv lub teb chaws Nplog, lawv puas pub ua yaj yeeb? | Polar
+Koj yawg, koj puas tau pw os? | Polar
+Koj yog leej twg? | Person
+Yuav pab tus dab tsi? | ??? <-- ???
+Kuv yuav tuaj lawm qhov twg? | Destination
+Koj yawg, koj pw lawm los tsis tau? | ??? <-- ???
+Koj yog leej twg ni? | Person
+Koj npe hu ua li cas? | Name
+Puas yog koj os, txiv? | Polar
+Ua li cas nej tsis tuaj xyuas kuv li? | ??? <-- ???
+Kuv niam thiab txiv, yuav yog li thaum twg nej mam li rov qab tuaj xyuas wb dua? | ??? <-- ???
+Txoj dab neeg tso tshwm sun nyob rau thaum lub caij twg? | Time
+Xauv thiab Zuam nkawv twb tsis tau sib ntsib dua li vim li cas Xauv ho mus pab Zuam? | Reason
+Zuam xav yog vim li cas nws thiaj li muab nws tus ntxhais hlob mus pauj Xauv tej kev txiaj ntsim? | Reason
+Xauv thiab Maiv Ciab nkawv yog ob tug neeg zoo li cas? | Description
+Nkawv yuav tau tso peb tsawg xyoo ntxiv nkawv niam thiab txiv mam li rov qab tuaj xyuas nkawv dua? | ??? <-- ???
+Viin li thaum Zuam tuaj thov Xauv mus pab nws, Zuam tsis kam nkag los lawm hauv tsev? | ??? <-- ???
+Koj xav yog hais tias Xauv muab roj thiab jev rau nws poj niam noj no nws yuav ua li cas? | Action
+Xauv thiab Maiv Ciab nkawv lub neej puas txom nyem? | Polar
+Vim li cas leej txiv thiab niam nkawv nqa ib lub pob zeb ntsuab tuaj rau Xauv thiab Maiv Ciab nkawv xwb? | Reason
+Txoj dab neeg tshwm sim nyob rau thaj tsam li xyoo twg? | Year
+Koj piav qhov chaw ntawv zoo li cas? | Description
+Yog vim li cas qhov chaw ntawv yuav nyob rawv rau hauv koj lub siab? | Reason
+Ua li cas twb puag tau cuaj xyoos tsis daug li? | ??? <-- ???
+Koj yog niag Liaj Ntsuab hu hu dab puas yog? | Polar
+Koj pw qhov twg? | Location
+Yog li no, nyob qhov twg ni? | Location
+Ntxawm Siv Yis puas tshuav dab tsi ntxiv lawm ? | Polar
+Siv Yis puas tshuav dab tsi rau peb noj thiab haus ntxiv lawm? | Polar
+Nyob qhov twg? | Location
+Ua li cas yuav muaj ib tug me ntxhais yuav ua ib lub zam zoo nkauj ua luaj li tuaj? | ??? <-- ???
+Me ntxhais es koj nyob qhov twg li tuaj os? | ??? <-- ???
+Ua li los, es me ntxhais, koj yuav tuaj lawm qhov twg? | Destination
+Nej yuav los mus tus dab tsi? | ??? <-- ???
+Ob niam txiv ruam, nkawv puag tau nkawv lub qe tau pes tsawg xyoo? | Duration
+Siv Yis mus kawm txuj ci tau ho ntev? | Duration
+Siv Yis xub tua yeej cov dab twg dua? | ??? <-- ???
+Yog Siv Yis tsis tau qhov muaj tsuas nws tsa puas tsa tau neeg? | Polar
+Thaum Siv Yis tua yeej cov Tsog Lej Tsog Qhuav, nws mus tua cov dab twg? | ??? <-- ???
+Koj xav yog vim li cas nws ho cia li nrog nws tus tub mus dua qaum ntuj lawm? | Reason
+Koj xav yog vim li cas nws ho tsis los mus cawm nws tus tub? | Reason
+Siv Yis cov twj neeb twj yaig dua twg tas lawm? | ??? <-- ???
+Maum Zaj tau foom li cas rau Siv Yis? | ??? <-- ???
+Ua li cas tus Liaj Ntsuab thiaj swb Siv Yis? | ??? <-- ???
+Koj xav yog hais tias Siv Yis coj nws tus tub rov qab los lawm hauv ntiaj teb no nws yuav zoo li cas? | Description
+Vim li cas tus lau qaib ho yog tus ua ntej tshaj plaws? | Reason
+Noj tsaus tsaus kis tob hau, yog dab tsi? | ??? <-- ???
+Dev dub xa dev dawb mus poob qho, deb dub rov hnyo, yog dab tsi? | ??? <-- ???
+Ruab hnub puav mus txais kab, hmo ntuj puav los mus dai qab nthab, yog dab tsi? | ??? <-- ???
+Cab hmab hauv nruab yeeb tawg paj rau saum yaj ceeb, yog dab tsi? | Thing
+Tsev mlom ob tog chom, yog dab tsi? | ??? <-- ???
+Tog hau ua nqia lauj tog tom qab ua ntxhuav tauj, yog dab tsi? | ??? <-- ???
+Mob tsis mob khaus tsis khaus, zoo nom zoo tswv nyiaj muas tsis taus, yog dab tsi? | ??? <-- ???
+Cab hmab cuaj dag txi txiv cuaj tshooj nplooj kheej li tais tooj, yog dab tsi? | ??? <-- ???
+Tuav nees txoob taug nees hneev, yog dab tsi? | ??? <-- ???
+Tsis hliav los ntse tsis zas los liab, yog dab tsi? | ??? <-- ???
+Ua li cas tus ntxhais ua kuv twb tau nyiag nyiam thiab twb tau ua npau suav pom nws lawm tseem tuaj thiab? | ??? <-- ???
+Tsis yog koj lawv lawv qab mus ncaws pob los? | ??? <-- ???
+Koj kuj txawj ncaws pob thiab los? | ??? <-- ???
+Vim li cas kuv yog tus neeg ntsib txoj kev ntxhov siab? | Reason
+Ua li cas ho tsis yog lwm tus neeg? | ??? <-- ???
+Thaum twg li nej mam li mus? | Time
+Nag hmo koj mus dua qhov twg lawm ib hmos lawm? | Destination
+Hnov lawv tham hais tias koj tham lawv tus ntxhais Hmoob Xyooj uas yuav tsiv mus lawm pem Stockton no puas yog? | Polar
+Txoj kev vwm no yuav nyob nrog kuv txog thaum twg? | Time
+Koj tseem yuav cia kuv tos kom txog hnub twg? | Day
+Txhob chim chim siab es mus koj ho tuaj xyuas peb dua thiab, thiab koj mus no tsis txhob tsav tsheb ceev ceev tsam ho muaj xwm txheem li cas? | ??? <-- ???
+Niam kuv txiv dua qhov twg lawm? | Destination
+Yog li no, leej niam thiaj nug tias ua nws yuav muab mus ua tus dab tsi? | ??? <-- ???
+Ua kuv txiv dua qhov twg lawm? | Destination
+Vim li cas Tswb Tshoj ib leeg thiaj li mus kov tau tus xib nyuj? | Reason
+Vim li cas leej niam tsis qhia rau leej tub tias nws muaj txiv? | Reason
+Tom qab ntawd ua li cas rau tus xib nywj lawm? | Event
+Vim li cas cov Cob Fab tam sim no teev thiab hu txog Tswb Tshoj? | Reason
+Tuam, koj yuav tuaj mus dab tsi? | ??? <-- ???
+Ua li cas nws ho lam paub kuv npe meej ua luaj li? | ??? <-- ???
+Koj npe hu li cas? | Name
+Koj twb ua hauj lwm ntawm no hov ntev lawm? | Duration
+Vim li cas Daj Teg ho coj koj tuaj txoj kev no? | Reason
+Cov neeg nrad ho yuav mus lawm qhov twg? | Destination
+Ua lawv yuav pub mus nyob hov ntev li mam rov los? | ??? <-- ???
+Nyob rau ntawm no puas muaj lwm qhov chaw rau Tuam mus saib ntxiv lawm? | Polar
+Yog muaj teeb meem no teeb meem zoo li cas? | Description
+Thaum nyob rau tom ub tod, koj nyob sab teb chaws twg? | Country
+Nej yuav mus lawm qhov twg? | Destination
+Nej yuav mus hov ntev li nej mam li rov qab los? | Duration
+Cov phooj ywg nej yuav mus lawm qhov twg? | Destination
+Nej yuav mus lawm qhov twg? | Destination
+Koj yuav nqe pes tsawg? | Number
