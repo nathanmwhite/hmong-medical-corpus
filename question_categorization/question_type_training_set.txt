@@ -235,8 +235,7 @@ Lo lus pam neej pam dab no txhais li cas? | Translation
 Koj xav ua cas hmo ntawd tus dab ntawd ho muab Npuag Hwm xwb thiab nws ho tsis kom tas nkawv ob leeg? | Reason
 Vim li cas cov neeg thoj nam ho paub tias lub roob no nyob muaj ib tug Dab phisnyausvais? | Reason
 Koj xav yuav ua li cas rau Nyiaj Vaj yog hais tias tsis muaj neeg pom? | Event
-Yog hais tias ob tug yawg Hmoob tua tau tus tsov dub ntawd muab tus tsov ntawd hlais los sis puas ris los mus tsev no yuav ua li cas? | 
-Event
+Yog hais tias ob tug yawg Hmoob tua tau tus tsov dub ntawd muab tus tsov ntawd hlais los sis puas ris los mus tsev no yuav ua li cas? | Event
 Nyob teb chaws no Asmesliskas no puas muaj cov dab no? | Polar
 Mos hlub ho zoo li cas ? | Description
 Mos hlub ho nyob qhov twg? | Location
