@@ -1,0 +1,82 @@
+ua cas hais? | Reason
+ua li cas hais? | Reason
+vim li cas? | Reason
+yog vim li cas? | Reason
+npe hu ua li cas? | Name
+npe hu li cas? | Name
+lub npe hu li cas? | Name
+lub npe hu ua li cas? | Name
+puas tau? | Polar
+puas yog? | Polar
+puas muaj? | Polar
+tau los? | Polar
+yog los? | Polar
+muaj los? | Polar
+puas yuav mus? | Polar
+sij hawm twg? | Time
+caij twg? | Time
+lub sij hawm twg? | Time
+thaum twg? | Time
+lub caij twg? | Time
+thaum tad li cas? | Time
+hli twg? | Month
+xyoo twg? | Year
+hnub twg? | Date
+qab li cas? | Description
+zoo li cas? | Description
+nws ua li cas? | Action
+yuav ua li cas? | Action
+mus ua li cas? | Action
+ua li cas? | Action
+ua dab tsi? | Action
+dab tsi? | Thing
+yog dab tsi? | Thing
+muaj dab tsi? | Thing
+pom dab tsi? | Thing
+hnov dab tsi? | Thing
+muaj dab tsi? | Thing
+leej twg? | Person
+tus twg? | Person
+yog leej twg? | Person
+hov coob? | Number
+pes tsawg lub? | Number
+pes tsawg tus? | Number
+pes tsawg yam? | Number
+pes tsawg leej? | Number
+nqe pes tsawg? | Number
+raug pes tsawg? | Number
+yog los yog? | Choice
+tus los tus? | Choice
+lub los lub? | Choice
+ua li cas rau? | Event
+ho ua li cas? | Event
+hov ntev? | Duration
+ntev npaum li cas? | Duration
+pes tsawg xyoo? | Duration
+pes tsawg hnub? | Duration
+pes tsawg hli? | Duration
+hauj lwm dab tsi? | Kind
+xwm txheej dab tsi? | Kind
+dua qhov twg? | Destination
+mus lawm qhov twg? | Destination
+tuaj lawm qhov twg? | Destination
+los lawm qhov twg? | Destination
+xav li cas? | Opinion
+xav tau li cas? | Opinion
+nyob qhov twg? | Location
+qhov twg? | Location
+nyob rau qhov twg? | Location
+xeev twg? | Location
+Hmoob dab tsi? | Clan
+xeem dab tsi? | Clan
+tuaj qhov twg tuaj? | Source
+los qhov twg los? | Source
+hom phiaj yog dab tsi? | Goal
+hom phiaj dab tsi? | Goal
+teb chaws twg? | Country
+lub teb chaws twg? | Country
+txhais li cas? | Translation
+txhais tau li cas? | Translation
+dej dab tsi? | River
+tus dej dab tsi? | River
+tus dej twg? | River
