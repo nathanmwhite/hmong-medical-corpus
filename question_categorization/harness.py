@@ -1,11 +1,15 @@
+""" This module provides the training harness for the first stage of the 
+question categorization model associated with the Hmong Medical Corpus.
+Note that this file is currently incomplete, with conversion to a class-based
+file in progress.
+"""
+
 from gensim.models import KeyedVectors
 
 import os
 import sys
 
-pos_tag_interface_path = os.path.expanduser(os.path.join('~',\
-                                                         'python_workspace', 'medical_corpus_scripting',\
-                                                         'pos_tagger_interface'))
+pos_tag_interface_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'pos_tagger_interface'))
 sys.path.append(pos_tag_interface_path)
 from POS_Tagger import HmongPOSTagger
 
@@ -16,29 +20,43 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import re
 
-subword_embeddings = KeyedVectors.load('subword_model.h5', mmap='r')
-tag_embeddings = KeyedVectors.load('tag_alone_model.h5', mmap='r')
-token_embeddings = KeyedVectors.load('word2vec_Hmong_SCH.model', mmap='r')
+class Harness:
+  def __init__(self):
+    self._load_embeddings()
+    self._prepare_question_data()
+    # TODO: _tokenizer_dict will be populated within _prepare_question_data using a wrapper method
+    #       on _load_tokenizer, where each entry in the dictionary corresponds to a data type used
+    #       as input to the non-CountVectorizer models
+    # TODO: within each dictionary should be a nested dictionary containing the necessary values for
+    #       each data type: tokenizer, pad_value, and out_value, while sequences should be stored
+    #       separately
+    self._tokenizer_dict = {}
+    
+  def _load_embeddings(self):
+    self.subword_embeddings = KeyedVectors.load('subword_model.h5', mmap='r')
+    self.tag_embeddings = KeyedVectors.load('tag_alone_model.h5', mmap='r')
+    self.token_embeddings = KeyedVectors.load('word2vec_Hmong_SCH.model', mmap='r')
 
-def load_question_data(filename):
+  def _load_question_data(self, filename):
     f = open(filename, 'r')
     data = [w.strip().split(' | ') for w in f.readlines() if '???' not in w and '<' not in w]
     f.close()
     print(len(data))
     return data
 
-data = load_question_data('question_type_training_set.txt')
-
-questions, labels = zip(*data)
-
-def tag_question_data(questions):
+  def _tag_question_data(self, questions):
     tagger = HmongPOSTagger()
     tokenized_questions = [re.sub('([\?,;])', ' \g<1>', q).split(' ') for q in questions]
     return tokenized_questions, tagger.tag_words(tokenized_questions)
+  
+  # TODO: the rest of the initial data loading from the script goes here
+  def _prepare_question_data(self):
+    data = self._load_question_data('question_type_training_set.txt')
+    questions, labels = zip(*data)
+    tokenized_questions, tags = self._tag_question_data(questions)
+    subword_tags, pos_tags = split_subword_pos_tags(tags)
 
-tokenized_questions, tags = tag_question_data(questions)
-
-def split_subword_pos_tags(tags):
+  def _split_subword_pos_tags(self, tags):
     """This function takes tags of type B-NN (subword-POS) and produces separate lists for subword tags
     and POS tags"""
     subword_tags = []
@@ -58,8 +76,14 @@ def split_subword_pos_tags(tags):
         pos_tags.append(pos_sent)
     return subword_tags, pos_tags
 
-subword_tags, pos_tags = split_subword_pos_tags(tags)
-
+  def _load_tokenizer(self, input_data):
+    tokenizer = Tokenizer()
+    tokenizer.fit_on_texts(input_data)
+    sequences = tokenizer.texts_to_sequences(input_data)
+    pad_value = max(tokenizer.word_index.values()) + 1
+    out_value = pad_value + 1
+    return tokenizer, sequences, pad_value, out_value
+  
 # notes: keras.preprocessing.text.one_hot, text_to_word_sequence
 # special pad values are used because Keras Tokenizer does not permit 0 as a value
 tokenizer = Tokenizer()
