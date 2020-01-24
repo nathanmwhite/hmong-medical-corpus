@@ -4,26 +4,28 @@ Note that this file is currently incomplete, with conversion to a class-based
 file in progress.
 """
 
-from gensim.models import KeyedVectors
-
 import os
 import sys
+import re
+
+import numpy as np
 
 pos_tag_interface_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'pos_tagger_interface'))
 sys.path.append(pos_tag_interface_path)
 from POS_Tagger import HmongPOSTagger
 
+from gensim.models import KeyedVectors
+
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils.np_utils import to_categorical
+
 from sklearn.model_selection import train_test_split
-import numpy as np
-import re
+from sklearn.feature_extraction.text import CountVectorizer
 
 class Harness:
   def __init__(self):
     self._load_embeddings()
-    self._prepare_question_data()
     # TODO: _tokenizer_dict will be populated within _prepare_question_data using a wrapper method
     #       on _load_tokenizer, where each entry in the dictionary corresponds to a data type used
     #       as input to the non-CountVectorizer models
@@ -31,6 +33,8 @@ class Harness:
     #       each data type: tokenizer, pad_value, and out_value, while sequences should be stored
     #       separately
     self._tokenizer_dict = {}
+    self._data_dict = {}
+    self._prepare_question_data()
     
   def _load_embeddings(self):
     self.subword_embeddings = KeyedVectors.load('subword_model.h5', mmap='r')
@@ -41,7 +45,7 @@ class Harness:
     f = open(filename, 'r')
     data = [w.strip().split(' | ') for w in f.readlines() if '???' not in w and '<' not in w]
     f.close()
-    print(len(data))
+    #print(len(data))
     return data
 
   def _tag_question_data(self, questions):
@@ -54,7 +58,12 @@ class Harness:
     data = self._load_question_data('question_type_training_set.txt')
     questions, labels = zip(*data)
     tokenized_questions, tags = self._tag_question_data(questions)
-    subword_tags, pos_tags = split_subword_pos_tags(tags)
+    subword_tags, pos_tags = self._split_subword_pos_tags(tags)
+    self._create_tokenizers(tokens=tokenized_questions, pos_tags=pos_tags, subword_tags=subword_tags, labels=labels)
+    self._MAX_LENGTH = max(len(s) for s in self._data_dict['tokens'])
+    self._pad_sequences()
+    # countvectorizer data
+    self._join_data(tokenized_questions, subword_tags, pos_tags)
 
   def _split_subword_pos_tags(self, tags):
     """This function takes tags of type B-NN (subword-POS) and produces separate lists for subword tags
@@ -76,65 +85,53 @@ class Harness:
         pos_tags.append(pos_sent)
     return subword_tags, pos_tags
 
-  def _load_tokenizer(self, input_data):
+  def _create_tokenizer(self, input_data, labels=False):
     tokenizer = Tokenizer()
     tokenizer.fit_on_texts(input_data)
-    sequences = tokenizer.texts_to_sequences(input_data)
-    pad_value = max(tokenizer.word_index.values()) + 1
-    out_value = pad_value + 1
-    return tokenizer, sequences, pad_value, out_value
+    data_dict = {}
+    data_dict['tokenizer'] = tokenizer
+    
+    if labels:
+      sequences = [l[0] for l in label_tokenizer.texts_to_sequences(labels)]      
+    else:
+      sequences = tokenizer.texts_to_sequences(input_data)
+      pad_value = max(tokenizer.word_index.values()) + 1
+      out_value = pad_value + 1
+      data_dict['pad_value'] = pad_value
+      data_dict['out_value'] = out_value
+
+    return data_dict, sequences
   
-# notes: keras.preprocessing.text.one_hot, text_to_word_sequence
-# special pad values are used because Keras Tokenizer does not permit 0 as a value
-tokenizer = Tokenizer()
-tokenizer.fit_on_texts(tokenized_questions)
-# automatically converts words to sequences of numbers
-sequences = tokenizer.texts_to_sequences(tokenized_questions)
-word_pad_value = max(tokenizer.word_index.values()) + 1
-word_out_value = word_pad_value + 1
+  def _create_tokenizers(self, **datasets):
+    for item in datasets.keys():
+      if item == 'labels':
+        label_value = True
+      else:
+        label_value = False
+      tokenizer_dict_out, data = self._create_tokenizer(datasets[item], label_value)
+      self._tokenizer_dict[item] = tokenizer_dict_out
+      self._data_dict[item] = data
 
-pos_tag_tokenizer = Tokenizer()
-pos_tag_tokenizer.fit_on_texts(pos_tags)
-pos_sequences = pos_tag_tokenizer.texts_to_sequences(pos_tags)
-pos_pad_value = max(pos_tag_tokenizer.word_index.values()) + 1
-pos_out_value = pos_pad_value + 1
+  def _pad_sequences(self):
+    for item in self._data_dict.keys():
+       if item != 'labels':
+          self._data_dict[item] = pad_sequences(self._data_dict[item], 
+                                                maxlen=self._MAX_LENGTH, 
+                                                padding='post', 
+                                                value=self._tokenizer_dict[item]['pad_value'])
 
-subword_tag_tokenizer = Tokenizer()
-subword_tag_tokenizer.fit_on_texts(subword_tags)
-subword_sequences = subword_tag_tokenizer.texts_to_sequences(subword_tags)
-subword_pad_value = max(subword_tag_tokenizer.word_index.values()) + 1
-subword_out_value = subword_pad_value + 1
-
-# can use label_tokenizer.sequences_to_texts once done
-label_tokenizer = Tokenizer()
-label_tokenizer.fit_on_texts(labels)
-label_sequences = [l[0] for l in label_tokenizer.texts_to_sequences(labels)]
-
-MAX_LENGTH = max(len(s) for s in sequences)
-
-word_index = tokenizer.word_index
-
-padded_sequences = pad_sequences(sequences, maxlen=MAX_LENGTH, padding='post', value=word_pad_value)
-padded_pos_sequences = pad_sequences(pos_sequences, maxlen=MAX_LENGTH, padding='post', value=pos_pad_value)
-padded_subword_sequences = pad_sequences(subword_sequences, maxlen=MAX_LENGTH, padding='post',\
-                                         value=subword_pad_value)
-
-from sklearn.feature_extraction.text import CountVectorizer
-
-def join_data(tokenized_questions, subword_tags, pos_tags):
+  # this is for the countvectorizer data--I need to split between regular and countvectorizer setup processes
+  # CountVectorizer needs sentences made of strings.
+  def _join_data(self, tokenized_questions, subword_tags, pos_tags):
     joined_data = []
     for i, q in enumerate(tokenized_questions):
         joined_sent = []
         for j, word in enumerate(q):
             joined_sent.append(''.join([word, subword_tags[i][j], pos_tags[i][j]]))
         joined_data.append(' '.join(joined_sent))
+    self._joined_data = joined_data
     
-    print(joined_data[:2])
-    return joined_data
-
-#CountVectorizer needs sentences made of strings.
-joined_data = join_data(tokenized_questions, subword_tags, pos_tags)
-
+# TODO: continue conversion here
 vectorizer = CountVectorizer()
 vectorizer.fit(joined_data)
 vectors = np.array([v.toarray()[0] for v in vectorizer.transform(joined_data)])
