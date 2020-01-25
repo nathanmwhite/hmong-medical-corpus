@@ -64,6 +64,7 @@ class Harness:
     self._pad_sequences()
     # countvectorizer data
     self._join_data(tokenized_questions, subword_tags, pos_tags)
+    self._create_vector_content()
 
   def _split_subword_pos_tags(self, tags):
     """This function takes tags of type B-NN (subword-POS) and produces separate lists for subword tags
@@ -92,7 +93,8 @@ class Harness:
     data_dict['tokenizer'] = tokenizer
     
     if labels:
-      sequences = [l[0] for l in label_tokenizer.texts_to_sequences(labels)]      
+      sequences = [l[0] for l in label_tokenizer.texts_to_sequences(input_data)]  
+      sequences = to_categorical(np.asarray(sequences))
     else:
       sequences = tokenizer.texts_to_sequences(input_data)
       pad_value = max(tokenizer.word_index.values()) + 1
@@ -131,17 +133,17 @@ class Harness:
         joined_data.append(' '.join(joined_sent))
     self._joined_data = joined_data
     
-# TODO: continue conversion here
-vectorizer = CountVectorizer()
-vectorizer.fit(joined_data)
-vectors = np.array([v.toarray()[0] for v in vectorizer.transform(joined_data)])
-
-pure_vectorizer_bigrams = CountVectorizer(ngram_range=(2,2))
-pure_vectorizer_bigrams.fit(joined_data)
-pure_bigram_vectors = np.array([v.toarray()[0] for v in pure_vectorizer_bigrams.transform(joined_data)])
-
-labels_matrix = to_categorical(np.asarray(label_sequences))
-
+  def _create_vector_content(self):
+    vectorizer = CountVectorizer()
+    vectorizer.fit(self._joined_data)
+    self._unigram_vectors = np.array([v.toarray()[0] for v in vectorizer.transform(self._joined_data)])
+    # changed vectors to self._unigram_vectors
+    pure_vectorizer_bigrams = CountVectorizer(ngram_range=(2,2))
+    pure_vectorizer_bigrams.fit(self._joined_data)
+    self._bigram_vectors = np.array([v.toarray()[0] for v in pure_vectorizer_bigrams.transform(self._joined_data)])
+    # changed pure_bigram_vectors to self._bigram_vectors
+    
+# TODO: Continue here
 TEST_SIZE = 0.2
 VALIDATION_SIZE = 0.2
 
