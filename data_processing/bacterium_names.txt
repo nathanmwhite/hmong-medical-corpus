@@ -1,0 +1,125 @@
+TUS MOB ENTEROTOXIGENIC E . COLI ( ETEC )
+ENTEROPATHOGENIC E . COLI
+Escherichia coli ( E . coli )
+Escherichia coli
+E . coli
+Ehrlichia
+Anaplasma
+Streptococcus agalactiae
+Legionella
+Borrelia burgdorferi
+Borrelia mayonii
+Bacillus anthracis
+Cov Kab Mob Atypical Mycobacteria Nontuberculous mycobacteria Mycobacteria other than tuberculosis ( MOTT )
+kab mob atypical mycobacteria
+M. avium
+M. intracellularae
+M. kansasii
+M. xenopi
+M. chelonae
+M. marinum
+M. fortuitum
+Clostridium botulinum
+Kab Mob Kas Cees - Chlamydia ( Chlamydia trachomatis )
+Chlamydia
+Chamydia trachomatis
+Vibrio cholerae
+Tus Mob Raws Plab Clostridium difficile Pseudomembranous colitis , Antibiotic - associated diarrhea
+Clostridium difficile
+Tus Mob Raws Plab Clostridium difficile
+Escherichia coli O157:H7
+Neisseria gonorrhoeae
+Tus Mob Haemophilus Influenzae Hom B Tus mob Hib
+Streptococcus pyogenes
+Staphylococcus aureus
+Group A beta-hemolytic streptococci ( GABS )
+GABS
+Mycobacterium leprae
+Leptospira
+Listeria monocytogenes
+Methicillin - Resistant Staphylococcus Aureus Cov mob MRSA
+MRSA
+Staphylococcus
+mob MRSA
+Methicillin - Resistant Staphylococcus Aureus
+S. aureus
+Pseudomonas aeruginosa
+tus kab mob P. aeruginosa
+Chlamydia psittaci
+Salmonella
+tus kab mob Salmonella
+Group A streptococci ( GAS )
+Streptococcal pneumoniae
+tus mob Streptococcus pneumoniae, Invasive
+Treponema pallidum
+Staphylococcus aureus
+group A streptococci
+Mycobacterium tuberculosis
+Francisella tularemsis
+Salmonella typhi
+tus kab mob Salmonella typhi
+Yersinia enterocolitica
+VRE ( Vancomycin Resistant Enterococci )
+Vancomycin Resistant Enterococci
+VRE
+kab mob enterococcus
+tus mob Enterococci
+Enterococci
+tus kab mob VRE
+Plesiomonas shigelloides
+Vibrionaceae
+kab mob Plesiomonas shigelloides
+P. shigelloides
+Tus Mob Shiga Toxin - Producing Escherichia coli ( STEC )
+tus mob Escherichia coli ( STEC )
+tus kab mob STEC
+E. coli
+O157
+O111
+O26
+E. coli O157:H7
+tus mob STEC
+Yersinia pestis
+Tus Mob Clostridium perfringens
+Clostridium perfringens
+tus kab mob Clostridium perfringens
+tus kab mob C. perfringens
+Mob Kiav Txhab / Mob Rwj Community Associated methicillin resistant staphylococcus aureus ( CA MRSA )
+mob MRSA
+MRSA
+Staphylococcus
+" staph "
+tus mob Staphylococcus aureus
+CA MRSA
+tus kab mob MRSA
+TUS MOB ENTEROTOXIGENIC E . COLI ( ETEC )
+Vibrio vulnificus
+tus kab mob Vibrio
+tus kab mob Vibrio parahemolyticus
+tus kab mob Vibrio vulnificus
+kab mob Vibrio ( non - cholera )
+V. cholerae O1
+V. cholerae O139
+kab mob Vibrio ( non - cholera )
+Shigella
+Salmonella paratyphi
+S. paratyphi B
+S. paratyphi C
+S. paratyphi A
+S. paratyphi
+Cov Mob Vancomycin - intermediate / resistant Staphylococcus aureus ( VISA / VRSA )
+cov mob VRSA
+cov mob VISA
+VISA
+VRSA
+cov mob VISA / VRSA
+tus mob VISA
+Carbapenem - Resistant Enterobacteriaceae ( CRE )
+tus mob CRE
+Enterobacteriaceae
+carbapenem - resistant Enterobacteriaceae
+CRE
+ENTEROPATHOGENIC E . COLI ( EPEC )
+cov kab mob E. coli
+cov kab mob EPEC
+tus mob EPEC

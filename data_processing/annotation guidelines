@@ -1,0 +1,103 @@
+Anatomy:
+Tag circumlocutions only if they uniquely identify a body organ or part as the term of reference.
+If the circumlocution merely provides a description, tag only the body organs/parts within it.
+nplooj siab is tagged together as a single unit if daim is also present
+Tag animal anatomy where these are analogical to humans.
+Don't tag any part of daj ntseg.
+Be careful: qhov muag tsev, taw rooj are not anatomical.
+Tag siab in xeev siab.
+Keep tes taw as separate. Treat plab hnyuv as a single word. Tawv nqaij is currently one whole; it may need to be separate as original. (this needs to be updated before p42024)
+Label pus: kua paug (I failed to do this in later documents ~ post p42070)
+hlab hnyuv is one word
+Need to check for chaw mos before p42042h
+Treat hlwb ntshav as two distinct labels.
+Do not label qhov nqus: currently treating as an idiomatic phrase, as evidence is lacking that it is a term so far. (p42046h)
+Do not tag nqaij in cev nqaij.
+Tag body part names in kua ntswg, kua muag, kua ncauj, etc.
+Tag qab xib tes as one element from p42086h
+Metaphorical uses of siab should not be tagged (from p42089)
+
+From p42068: tag body parts if they're inside another body term (non-body part): kua hlwb with hlwb tagged
+From p42068: tag nqaij in "nqaij to" as "nqaij" is a literal referent in the term
+Do not tag ntswg in los ntswg, as this is a reference to mucus. (from p42092)
+
+From p42093: label roj ntsha if it means 'blood'
+Don't annotate tis "wing".
+From p42182: label nqaij in qhov nqaij to: nqaij is a body part term in a phrase
+
+Watch out:
+plaub	'hair'		four
+rau	'nail'		to, for, insert
+siab	'liver'		high
+leeg	'nerve'		CL:person
+nqaij	'muscle'	(animal) meat
+
+
+Diseases:
+Content in parentheses should get their own tags, unless the parentheses appear within a name.
+Tag content linked by thiab as separate unless the coordinated elements represent a single whole.
+Tag content separated with / should be grouped together as this reflects the joining in the original document.
+Exclude verbs like mob if in this role. (ua mob TB --> TB should be tagged alone)
+Only include specific mentions by name (do not tag tus mob if it appears alone)
+If the disease is distinguished from the cause by the presence of mob, tag only with mob present.
+Do not tag elements with kab mob in the name: these are understood to be the non-disease pathogens that cause the disease.
+	The exceptions:
+		infant botulism: the translator consistently used kab mob for the illness name.
+		Campylobacteriosis: the translator often used kab mob for the illness name.
+		"kab mob kas cees" is a disease if explicitly so, otherwise, if a bacterium, treat as non-disease
+Clostridium difficile infection: the translated often used kab mob for both the bacterium and the resulting infection. The original English version contains absolutely no instances of reference to the infection as a separate thing, suggesting that this really is about the bacterium, with an illness idea tacked on the end. Do not tag "CDI" instances for this reason--the Hmong contains references to a bacterium, and only the English abbreviation, not used in the original, appears to refer to something else. The original English only references the bacterium. --> on the second pass, I've tagged CDI for the infection, even in the "kab mob CDI" name as described below
+Ambiguous cases between bacteria and diseases/syndromes should be otherwise left unlabeled.
+Tag elements even if turned into circumlocutions ("the kind of the illness known as California") but only the part that represents a proper noun, as in the name after "hu ua".
+Don't treat "malignancy" as a disease: it's a pathological situation, but not a disease or syndrome.
+If the main name of an illness is listed as a bacterium, but alternate names are diseases/symptoms, tag the diseases/symptoms but not the bacterium names.
+Disease names included in references to something else--bacteria, mosquitoes, etc.--are references to that other thing. This differs from body parts and symptoms, which actually reference the relevant referent rather than something else. Do not label disease names in references to bacteria, mosquitoes, and other non-disease/syndrome items. (this is analogous to "shirt sleeve" or "pant leg")
+In p42062h: "pob khaus impetigo" is labeled even when this modifies "kab mob" to refer to the bacteria that cause it, as it's used consistently as a term modifying the other term.
+In p42063h: handling same as "pob khaus impetigo" above: "infectious mononucleosis" is not at all the name of a bacterium
+--this is likewise followed for "flu" in p42064h: "flu" is an illness, "flu virus" is a virus
+--likewise with "leprosy" in p42067: "ruas" is marked where kab mob or tsos mob are present, otherwise "mob ruas" and so on are marked.
+--I've done this as well in p42082, even where the English suggests that the illness name should be followed; it's almost as if the Hmong says "bacterium" where the English provides the illness name, and this may have been the translator's understanding, even if wrong
+# need to check if pre p01298h content matches this
+p42095: handling Syphilis as a disease (because it is), even though the translation claims it's a bacterium
+Revisited: kab mob tuberculosis is referenced explicitly as a disease caused by a bacterium in the Hmong, meaning that kab mob needs revisiting; from here, label kab mob if it's referencing a disease but not a bacterium
+Tag diseases that can apply to humans; diseases that are specific to animals are to be excluded. (cf. tis 'wing')
+
+Symptoms:
+Adverse outcomes are not symptoms. "death" may be an exception as it may be indicative of the original illness before death.
+Exclude durations.
+Absence of a symptom is not a symptom.
+leave out tus mob from tus mob + symptom sequence
+if two symptoms are coordinated with a single subject, label them as a single symptom
+exclude heev if not an integral part of symptom
+include phrases if the combination of subject noun and verb are the minimal symptom
+tuag tes tuag taw is a single symptom
+Tag tuag as a symptom only where it is a genuine symptom. (from p42037h)
+Exclude pib from symptom reference. (from p42037h)
+Exclude ua rau from symptom reference where not critical to the expression of the symptom. (from p42037h)
+Txawj loj tuaj and txawj me los are not symptoms, but may appear in symptoms lists.
+If symptoms contain a slash (/), if distinct but comparable symptoms are found on either side, label as two symptoms. Otherwise, label as one. (from p42045)
+Hnoos qeev should not have hnoos labeled--the entire thing is a unit meaning "sputum". (from p42050)
+# need to check if pre p01298h content matches this
+
+If the symptom name is inside a condition/disease name, this should be tagged, but only if it's a genuine reference to the symptom as part of the name. If it's the name of a bacterium, this should only be tagged as a symptom if the symptom name is genuinely included in the tag. (I believe I removed tags for p42050~p42061 if the symptom was in an illness name, but I'm not sure)
+
+From p42068: references in parentheses for symptoms where the same symptom is restated should receive a single tag for both reference approaches
+From p42070: annotate diseases/syndromes as symptoms as well as diseases only if explicitly referenced as a symptom
+
+p42079: Illness name tagged where it modifies "kab mob" when this is not the name for the bacterium
+p42093: several resulting illnesses are labeled as symptoms; may need to revise
+
+A symptom is not a result of illness or a subsequent illness caused by the first.
+
+raws	'be affected by diarrhea'	according to
+
+General:
+Include classifiers in the tag only if they represent an integral and conventional part of the reference. (e.g. exclude hom, include tus if tus mob, and include cov in cov mob)
+--never include classifiers in anatomy terms unless it disambiguates an item from another
+Proposed: Do not tag items where direct reference does not exist: e.g. do not tag "hniav" 'tooth' in "pas txhaum hniav" 'toothbrush' (tagged in p42055h); note also "hnab looj tes" -- rejected
+--items are still not tagged with "ceg tsho" "shirt sleeve"
+If an item is split across the line, remove the split and unite as a single-tagged item.
+Make sure large numbers with commas are not split into multiple words.
+
+Issue: p42073h only has body part terms, it doesn't have the other two categories
+Issue: p42106h only has very limited body part terms, it doesn't really have the other two categories
+Issue: p42150h had weak representation of two categories, none of the third 
