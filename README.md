@@ -21,4 +21,4 @@ Currently, the repository contains the following folders:
 * /presentations -- Jupyter Notebook files providing information on implementation
 * /question_categorization -- code and ancillary files related to categorizing questions in Hmong
 
-Copyright © 2019-2021 Nathan M. White. All rights reserved.
+The Hmong Medical Corpus. Copyright © 2019-2021 Nathan M. White. All rights reserved.
