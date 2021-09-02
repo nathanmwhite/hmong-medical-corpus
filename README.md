@@ -1,6 +1,5 @@
 # hmong-medical-corpus
 A corpus of Hmong medical texts
-Copyright © 2019-2021 Nathan M. White. All rights reserved.
 
 This repository contains a number of files, primarily of three kinds:
 1) Code files for the corpus (to appear)
@@ -21,3 +20,5 @@ Currently, the repository contains the following folders:
 * /preprocessed_data -- zip file containing raw text portion of the Hmong Medical Corpus
 * /presentations -- Jupyter Notebook files providing information on implementation
 * /question_categorization -- code and ancillary files related to categorizing questions in Hmong
+
+Copyright © 2019-2021 Nathan M. White. All rights reserved.
