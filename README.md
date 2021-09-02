@@ -1,5 +1,6 @@
 # hmong-medical-corpus
 A corpus of Hmong medical texts
+Copyright © 2019-2021 Nathan M. White. All rights reserved.
 
 This repository contains a number of files, primarily of three kinds:
 1) Code files for the corpus (to appear)
