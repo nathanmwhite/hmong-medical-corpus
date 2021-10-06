@@ -20,3 +20,5 @@ Currently, the repository contains the following folders:
 * /preprocessed_data -- zip file containing raw text portion of the Hmong Medical Corpus
 * /presentations -- Jupyter Notebook files providing information on implementation
 * /question_categorization -- code and ancillary files related to categorizing questions in Hmong
+
+The Hmong Medical Corpus project. Copyright © 2019-2021 Nathan M. White. All rights reserved.

@@ -2,7 +2,10 @@
 question categorization model associated with the Hmong Medical Corpus.
 Note that this file is currently incomplete, with conversion to a class-based
 file in progress.
+Copyright © 2020-2021 Nathan M. White. All rights reserved.
 """
+
+__copyright__ = 'Copyright © 2020-2021 Nathan M. White. All rights reserved.'
 
 import os
 import sys
