@@ -1,3 +1,8 @@
+https://www.dhs.wisconsin.gov/publications/p0/p00119h.pdf
+https://www.dhs.wisconsin.gov/publications/p00356h.pdf
+https://www.dhs.wisconsin.gov/publications/p00486h.pdf
+https://www.dhs.wisconsin.gov/publications/p0/p00688h.pdf
+https://www.dhs.wisconsin.gov/publications/p0/p00873h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p01298h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p01581h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p01709h.pdf
@@ -35,6 +40,7 @@ https://www.dhs.wisconsin.gov/publications/p4/p42049h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42050h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42051h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42052h.pdf
+https://www.dhs.wisconsin.gov/publications/p42053ah.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42054h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42055h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42056h.pdf
@@ -54,7 +60,6 @@ https://www.dhs.wisconsin.gov/publications/p4/p42069h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42070h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42071h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42072h.pdf
-https://www.dhs.wisconsin.gov/publications/p4/p42073h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42077h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42078h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42079h.pdf
@@ -67,6 +72,7 @@ https://www.dhs.wisconsin.gov/publications/p4/p42085h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42086h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42088h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42089h.pdf
+https://www.dhs.wisconsin.gov/publications/p4/p42090h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42091h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42092h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42093h.pdf
@@ -80,11 +86,9 @@ https://www.dhs.wisconsin.gov/publications/p4/p42101h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42102h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42103h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42105h.pdf
-https://www.dhs.wisconsin.gov/publications/p4/p42106h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42108h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42109h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42111h.pdf
-https://www.dhs.wisconsin.gov/publications/p4/p42150h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42155h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42157h.pdf
 https://www.dhs.wisconsin.gov/publications/p4/p42158h.pdf
